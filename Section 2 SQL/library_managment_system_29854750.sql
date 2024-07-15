@@ -18,6 +18,9 @@
 --
 -- Table structure for table `books`
 --
+CREATE DATABASE IF NOT EXISTS `library`;
+
+USE `library`;
 
 DROP TABLE IF EXISTS `books`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
